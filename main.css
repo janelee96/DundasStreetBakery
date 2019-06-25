@@ -1,0 +1,71 @@
+body{
+    background-image: url(images/dark-tile.gif);
+    background-repeat: repeat-x;
+    font-family: georgia, 'times new roman', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin:10px 20px 10px 100px;
+    color:#666;
+    
+}
+
+#header{
+    margin: 5px 20px;
+}
+
+#header h1{ 
+    font-weight: normal;
+    font-size: 72px;
+    color:#fff; 
+}
+
+#nav ul{
+    list-style-type:none;
+    margin-left:20px;
+    padding-left:0;
+}
+
+#nav li{
+    display:inline;
+    padding-right:40px;
+}
+
+#nav a{
+    text-decoration:none;
+    color:#a25c3a;
+    font-size:24px;
+}
+
+#content{
+    font-size:18px;
+    margin-top:30px;
+    margin-right:20px;
+    margin-left:20px;
+    text-align: justify;
+}
+
+#content img{
+    float:left;
+    border:2px solid black;
+    margin-right:25px;
+    margin-bottom:15px;
+}
+
+#footer{
+    margin:30px 20px;
+    padding:10px 0;
+    text-align: right;
+    font: arial, sans-serif;
+}
+
+#footer a{
+    color:#a25c3a;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+#content span{
+    font-size:16px;
+    color:#a25c3a;
+    font-weight:bold;
+}
